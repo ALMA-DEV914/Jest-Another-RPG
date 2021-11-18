@@ -14,6 +14,7 @@ test('creates an enemy object', () => {
     expect(enemy.agility).toEqual(expect.any(Number));
     expect(enemy.potion).toEqual(expect.any(Object));
 });
+
 test("gets enemy's health value", () => {
     const enemy = new Enemy('goblin', 'sword');
   
